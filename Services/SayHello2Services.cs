@@ -8,7 +8,7 @@ namespace BestAsControllerQuiz.Services
 {
     public class SayHello2Services
     {
-        public string SayHello2(string UserName){
+        public string SayHello2(SayHello2Model UserName){
         
             return $"Hi, {UserName}! It's nice to meet you!";
         }

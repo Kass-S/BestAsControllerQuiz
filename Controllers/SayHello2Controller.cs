@@ -19,7 +19,7 @@ namespace BestAsControllerQuiz.Controllers
 
         [HttpGet]
         [Route("Hello2/{userName}")]
-        public string SayHello2(string userName){
+        public string SayHello2(SayHello2Model userName){
             return _sayHello2Services.SayHello2(userName);
         }
     }
