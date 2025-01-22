@@ -1,0 +1,6 @@
+@BestAsControllerQuiz_HostAddress = http://localhost:5121
+
+GET {{BestAsControllerQuiz_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
